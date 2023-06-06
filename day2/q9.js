@@ -30,7 +30,7 @@ function ListNode(val, next) {
     return dummy.next;
   }
 
-const head = new ListNode(1);
+  const head = new ListNode(1);
 head.next = new ListNode(2);
 head.next.next = new ListNode(2);
 head.next.next.next = new ListNode(3);
