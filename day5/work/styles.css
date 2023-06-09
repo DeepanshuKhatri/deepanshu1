@@ -1,0 +1,236 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.main{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    flex:50%;
+    width:50vw;
+    height:100vh;
+    display: inline-block;
+    margin:0px;
+    padding:0px;
+}
+.container1{
+    background-image: url("images/img2.jpg");
+    background-size:cover;
+}
+.container2 {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.login-image{
+    width:50vw;
+    height:100vh;
+}
+.logos{
+    display: inline-block;
+    margin:0 10px;
+    width:20px;
+    height:20px;
+    border-radius: 10%;
+    margin-top:10px;
+    margin-bottom:20px;
+
+}
+.logo{
+    width:20px;
+    height:20px;
+}
+.hr-text {
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    font-size:5px;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    opacity: .5;
+    &:before {
+      content: '';
+      background: linear-gradient(to right, transparent, #818078, transparent);
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      height: 1px;
+    }
+    &:after {
+      content: attr(data-content);
+      position: relative;
+      display: inline-block;
+      color: black;
+  
+      padding: 0 .5em;
+      line-height: 1.5em;
+      color: #818078;
+      background-color: #fcfcfa;
+    }
+}
+
+h6{
+    padding-bottom: 3px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.input{
+    padding:10px;
+}
+
+.input-box{
+    border:none;
+    width:100%;
+    height:30px;
+    border-radius:4px;
+    background-color:rgb(219, 233, 241);
+    /* outline:none; */
+}
+p, a{
+    font-size: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+a{
+    text-decoration:none;
+    cursor:pointer;
+}
+.forgot{
+    display:flex;
+    justify-content:end;
+    align-items:right;
+}
+/* p{
+    display:inline-block;
+} */
+.rem-forgot{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.input button{
+    width:100%;
+    color: white;
+    background-color: rgb(38, 142, 227);
+    border:none;
+    border-radius:7px;
+    text-align: center;
+    height:30px;
+    cursor: pointer;
+}
+.tickbox{
+    display:inline-block
+}
+
+.remember{
+    display:flex;
+    justify-items: center;
+    align-items:flex-start;
+    gap:5px;
+}
+
+.options{
+    display:flex;
+    justify-content:center;
+}
+.message{
+    padding-top:5px;
+}
+::placeholder{
+    padding-left:5px;
+    font-size: 10px;
+}
+
+
+.logos:hover{
+    cursor: pointer;
+}
+
+.emoji{
+    border:1px solid red;
+    padding:25px;
+    border-radius:100%;
+}
+.container11{
+    display:flex;
+    align-items:end;
+    justify-content: space-around;
+    height:50vh;
+}
+.emoji1{
+
+    background-color: #ffd633;
+    height:50px;
+    
+    /* font-size:30px; */
+}
+.emoji2{
+    background-color:#CC00FF;
+    height:50px;
+}
+.emoji3{
+    background-color:#33FFCC;
+    height:50px;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    display: inline;
+    background-color:#333;
+}
+li{
+    float:left; 
+}
+.list{
+    background-color:#dddddd;
+}
+.text{
+    display:flex;
+    color:white;
+    justify-content:center;
+    align-items: center;
+}
+.about2{
+    color:white;
+}
+.text2{
+    display:flex;
+    justify-content: center;
+    padding:20px;
+}
+/* .text{
+    display:block;
+    padding-left:50px;
+} */
+.container12{
+    padding-top:20px;
+}
+
+.arrows{
+    display:flex;
+    justify-content: center;
+    /* margin:10px; */
+}
+.arrow{
+    color:white;
+    background-color: grey;
+    padding:10px;
+    border-radius:100%;
+    margin:10px;
+    margin-top:50px;
+    font-size:10px;
+}
+.arrow:hover{
+    color:black;
+    cursor:pointer;
+    background-color:white;
+}
